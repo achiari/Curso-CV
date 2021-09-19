@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(117, 205, 235);
+    display: flex;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+div {
+    flex-direction: column;
+    width: 50%;
+}
