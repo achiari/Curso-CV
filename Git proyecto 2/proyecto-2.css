@@ -1,0 +1,144 @@
+        #contenedor3 {
+            position: relative;
+            display: flex;
+            border: gray 1px solid;
+            height: 400px;
+            border-radius: 400px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #contenedor2 {
+            position: relative;
+            display: flex;
+            border: gray 1px solid;
+            height: 400px;
+            width: 400px;
+            border-radius: 50px;
+            align-items: center;
+            flex-direction: row-reverse;
+            margin-right: 10%;
+        }
+        
+        #contenedor1 {
+            position: relative;
+            display: flex;
+            border: gray 1px solid;
+            height: 400px;
+            width: 400px;
+            border-radius: 50px;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        #uno {
+            background-color: blue;
+            border-radius: 50px;
+            width: 25%;
+            height: 25%;
+            cursor: pointer;
+            transition-duration: 1s;
+        }
+        
+        #uno:hover {
+            background-color: orange;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #uno1 {
+            background-color: blue;
+            border-radius: 50px;
+            width: 20%;
+            height: 20%;
+            cursor: pointer;
+            transition-duration: 1s;
+        }
+        
+        #uno1:hover {
+            background-color: red;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #dos {
+            background-color: red;
+            border-radius: 50px;
+            width: 25%;
+            height: 25%;
+            cursor: pointer;
+            transition-duration: 2s
+        }
+        
+        #dos:hover {
+            background-color: green;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #dos2 {
+            background-color: green;
+            border-radius: 50px;
+            width: 20%;
+            height: 20%;
+            cursor: pointer;
+            transition-duration: 2s
+        }
+        
+        #dos2:hover {
+            background-color: green;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #tres {
+            background-color: yellow;
+            border-radius: 50px;
+            width: 25%;
+            height: 25%;
+            cursor: pointer;
+            transition-duration: 3s
+        }
+        
+        #tres:hover {
+            background-color: violet;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #tres3 {
+            background-color: red;
+            border-radius: 50px;
+            width: 20%;
+            height: 20%;
+            cursor: pointer;
+            transition-duration: 3s
+        }
+        
+        #tres3:hover {
+            background-color: blue;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #cuatro {
+            background-color: black;
+            border-radius: 50px;
+            width: 25%;
+            height: 25%;
+            cursor: pointer;
+            transition-duration: 4s
+        }
+        
+        #cuatro:hover {
+            background-color: white;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
+        
+        #cuatro4 {
+            background-color: black;
+            border-radius: 50px;
+            width: 20%;
+            height: 20%;
+            cursor: pointer;
+            transition-duration: 4s
+        }
+        
+        #cuatro4:hover {
+            background-color: white;
+            box-shadow: 0 0 30px rgb(49, 48, 48) inset;
+        }
