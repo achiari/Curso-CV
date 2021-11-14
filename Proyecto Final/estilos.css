@@ -1,0 +1,168 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: olivedrab;
+    background: white;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1px;
+    background-color: #333;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-radius: 25px;
+    background: #0b76a6;
+}
+
+#main-header a {
+    color: white;
+}
+
+#contenedor1 {
+    background: #333;
+    color: white;
+    height: 80px;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b1 {}
+
+.b2 {}
+
+.C1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.ATK1 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    color: white;
+    font-size: 1.95em;
+    text-shadow: #83152b -2px 0px, #83152b 0px 2px, #83152b 2px 0px, #83152b 0px -2px;
+}
+
+.DEF1 {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    color: white;
+    font-size: 1.95em;
+    text-shadow: #025959 -2px 0px, #025959 0px 2px, #025959 2px 0px, #025959 0px -2px;
+}
+
+.GUIA {
+    height: 150px;
+    width: 150px;
+}
+
+.HOLA {
+    height: 90%;
+    width: 90%;
+}
+
+
+/*
+ * Logo
+ 
+ #logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+*/
+
+
+/*
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+#main-footer a {
+    color: white;
+}
+*/

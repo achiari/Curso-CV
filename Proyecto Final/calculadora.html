@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <div id="main-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cartas.html">Cartas</a></li>
+                    <li><a href="calculadora.html">Calculadora</a></li>
+                    <li><a href="guia.html">guia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <div class="container">
+            <div class="resultados">
+                <!--  <p id="demoCG"></p>
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+                <p id="demo3"></p>
+                <p id="demo4"></p>
+                <p id="demo5"></p>-->
+                <p id="demoDMG"></p>
+            </div>
+            <div class="botones">
+                <button class="b1" onclick="myFunction1()"><img src="img/01.png"></button>
+                <button class="b2" onclick="myFunction2()"><img src="img/02.png"></button>
+                <button class="b2" onclick="myFunction3()"><img src="img/03.png"></button>
+                <button class="b2" onclick="myFunction4()"><img src="img/04.png"></button>
+                <button class="b2" onclick="myFunction5()"><img src="img/05.png"></button>
+                <button class="b3" onclick="myFunctionDMG()">calc</button>
+            </div>
+        </div>
+        <script>
+            var C1 = 0;
+            var C2 = 0;
+            var C3 = 0;
+            var C4 = 0;
+            var C5 = 0;
+            var DMG = 0;
+            var CG = 0;
+            var BD = 1;
+
+
+            function myFunction1() {
+                C1 = C1 + 1;
+                CG = CG + 1;
+                document.getElementById("demo1").textContent = C1;
+            }
+
+            function myFunction2() {
+                C2 = C2 + 1;
+                CG = CG + 1;
+                document.getElementById("demo2").textContent = C2;
+            }
+
+            function myFunction3() {
+                C3 = C3 + 1;
+                CG = CG + 1;
+                document.getElementById("demo3").textContent = C3;
+            }
+
+            function myFunction4() {
+                C4 = C4 + 1;
+                CG = CG + 1;
+                document.getElementById("demo4").textContent = C4;
+            }
+
+            function myFunction5() {
+                C5 = C5 + 1;
+                CG = CG + 1;
+                document.getElementById("demo5").textContent = C5;
+            }
+
+
+            function myFunctionDMG() {
+                if (CG >= 2) {
+                    BD = 1.15;
+                }
+                DMG = (105 * C1 + 120 * C2 + 105 * C3 + 110 * C4 + 20 * C5) * BD;
+                document.getElementById("demoDMG").textContent = DMG;
+                document.getElementById("demoCG").textContent = CG;
+            }
+        </script>
+
+
+
+
+    </article>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
