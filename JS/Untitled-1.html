@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+var alumnos = [
+
+{
+
+  nombre: 'Juan Gomez',
+
+  nota: 7
+
+}, {
+
+  nombre: 'Pedro Rodriguez',
+
+  nota: 4
+
+}, {
+
+  nombre: 'Roxana García',
+
+  nota: 8
+
+}, {
+
+  nombre: 'Luciano Lopez',
+
+  nota: 5
+
+}, {
+
+  nombre: 'Fernanda Gimenez',
+
+  nota: 6
+
+}, {
+
+  nombre: 'Florencia Martinez',
+
+  nota: 10
+
+}, {
+
+  nombre: 'Raul Sanchez',
+
+  nota: 7
+
+}, {
+
+  nombre: 'Sandra Figueroa',
+
+  nota: 8
+
+}
+];
+
+var mayor=-999;
+var arrai = [ 0,0,0,0,0];
+var distancia;
+for (var i = 0; i <8; i++) {
+if (alumnos[i].nota >= 7) {
+    document.write(alumnos[i].nombre+' '+('<br>'));
+}
+}
+distancia = prompt('Ingrese la distancia:','');
+if (distancia <= 1000) {
+    document.write('Recorrer en pie.');
+}
+if (distancia <= 10000 && distancia >= 1000) {
+    document.write('Recorrer en bicicleta.');
+}
+if (distancia <= 30000 && distancia >= 10000) {
+    document.write('Recorrer en colectivo.');
+}
+if (distancia <= 100000 && distancia >= 30000) {
+    document.write('Recorrer en auto.');
+}
+if (distancia >= 100000) {
+    document.write('Recorrer en avion.');
+}
+for (var i = 0; i <5; i++) {
+    arrai[i]= prompt('Ingrese un numero','');
+if (arrai[i]>= mayor) {
+    mayor= arrai[i];
+}
+}
+document.write(('<br>')+'mayor numero: '+mayor);
+</script>
+</body>
+</html>
